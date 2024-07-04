@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-if [ "$AUTOCONFIGURE_PUBLIC_IP" = "1" ];
+if [ "$AUTOCONFIGURE_PUBLIC_IP" = "7" ];
 then
 	if [ -z "$PUBLIC_IP" ];
 	then
